@@ -1,0 +1,24 @@
+{
+  "name": "upshoe",
+  "version": "0.0.1",
+  "description": "Example setup of upnode in combination with shoe.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dignifiedquire/upshoe.git"
+  },
+  "author": "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "domready": "~0.2.11",
+    "shoe": "0.0.7",
+    "upnode": "~0.4.3"
+  },
+  "devDependencies": {
+    "browserify": "~1.16.6"
+  }
+}
