@@ -16,7 +16,8 @@
   "dependencies": {
     "domready": "~0.2.11",
     "shoe": "0.0.7",
-    "upnode": "~0.4.3"
+    "upnode": "~0.4.3",
+    "ecstatic": "~0.3.0"
   },
   "devDependencies": {
     "browserify": "~1.16.6"

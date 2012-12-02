@@ -1,5 +1,4 @@
 var shoe = require('shoe');
-var dnode = require('dnode');
 var upnode = require('upnode');
 
 var http = require('http');
@@ -24,4 +23,3 @@ sock.on('log', function(level, msg) {
   console.log(level + ": " + msg);
 });
 sock.install(server, '/dnode');
-
